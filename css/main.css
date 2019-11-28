@@ -1,0 +1,30 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f3f5;
+}
+button.navbar-toggler:focus{
+  outline: none;
+}
+.navbar{
+  border-top: 6px solid #f15025;
+  background-color: #242a33;
+  margin: 0;
+  padding: 0;
+}
+.navbar .navbar-brand{
+  display: block;
+  background-color: #f15025;
+  color: #f5f3f5;
+  font-style: italic;
+  padding: .9375rem 2.5rem;
+}
+.navbar .nav-link{
+  color: #f15025;
+  font-size: 1.25rem;
+  margin: 0 .625rem;
+  padding: .625rem .9375rem;
+}
+.navbar .nav-link:hover{
+  background-color: #f15025;
+  color: #f5f3f5;
+}
