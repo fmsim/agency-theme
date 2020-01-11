@@ -99,3 +99,74 @@ button.navbar-toggler:focus{
   font-size: 2rem;
 }
 /** END OF BANNER ICONS **/
+/** SECTION TITLE **/
+
+/** END OF SECTION TITLE **/
+.title svg{
+  font-size: 3.75rem;
+  color: #f15025;
+}
+.title .title-text{
+  padding-left: .9375rem;
+  border-left: .1875rem solid #ced0ce;
+}
+/** SERVICES SECTION **/
+#services .service-icon{
+  font-size: 3.75rem;
+  padding: 3.75rem;;
+  background-color: #f15025;
+  color: #f5f3f5;
+}
+#services .service-icon:hover{
+  background-color: rgba(0, 0, 0, .6);
+  color: #f15025;
+}
+#services .service-icon-1{
+  /* links oben - x=0 y=0 | rechts oben - x=100% y=0 | rechts unten - x=100% y=100% | links unten - x=0 y=100% */
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+#services .service-icon-2{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+}
+#services .service-icon-3{
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+#services .service-icon-4{
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+/** END OF SERVICES SECTION **/
+/** CONTACT SECTION **/
+#contact{
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+                    url('../images/background-filler-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}
+
+#contact .form-control{
+  background-color: transparent;
+  font-size: 2.5rem;
+  border: none;
+  border-bottom: .1875rem solid white;
+  border-radius: none;
+}
+#contact .form-btn{
+  font-size: 2.5rem;
+  border: .1875rem solid white;
+  border-radius: none;
+  background-color: transparent;
+  color: #f15025;
+}
+#contact .form-btn:hover{
+  background-color: #f15025;
+  color: #ced0ce;
+  border: .1875rem solid #f15025;
+}
+#contact input[type="text"]::placeholder{
+  color: white;
+}
+/** END OF CONTACT SECTION **/
