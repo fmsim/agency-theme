@@ -170,3 +170,24 @@ button.navbar-toggler:focus{
   color: white;
 }
 /** END OF CONTACT SECTION **/
+/** WORK SECTION **/
+#work .work-title-text{
+  padding-right: .9375rem;
+  border-right: .1875rem solid #ced0ce;
+}
+#work .work-icon{
+  padding-left: .9375rem;
+}
+#work button{
+  font-size: 1.25rem;
+  margin: .3125rem;
+  padding: .9375rem 1.25rem;
+  border-radius: 0;
+  background-color: #242a33;
+  color: #f15025;
+}
+#work button:hover{
+  background-color: #f15025;
+  color: #242a33;
+}
+/** END OF WORK SECTION **/
