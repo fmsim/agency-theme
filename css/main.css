@@ -191,3 +191,22 @@ button.navbar-toggler:focus{
   color: #242a33;
 }
 /** END OF WORK SECTION **/
+/** ABOUT SECTION **/
+#about-us{
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+                    url('../images/current-projects-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+#about-us a{
+  text-decoration: none;
+  color: #ced0ce;
+}
+#about-us .card-header{
+  background-color: #f15025;
+}
+/** END OF ABOUT SECTION **/
