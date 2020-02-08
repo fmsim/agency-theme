@@ -242,3 +242,16 @@ button.navbar-toggler:focus{
   padding: 0;
 }
 /** END OF CURRENT PROJECTS SECTION **/
+/** NUMBERS SECTION **/
+#numbers .num{
+  padding: 1.875rem;
+  background-color: #242a33;
+  color: #f5f3f5;
+}
+#numbers .num:hover{
+  background-color: rgba(0, 0, 0, .6);
+}
+#numbers svg{
+  font-size: 3.75rem;
+}
+/** END OF NUMBERS SECTION **/

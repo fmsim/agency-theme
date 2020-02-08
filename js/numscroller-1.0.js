@@ -2,9 +2,9 @@
 * jQuery scroroller Plugin 1.0
 *
 * http://www.tinywall.net/
-* 
+*
 * Developers: Arun David, Boobalan
-* Copyright (c) 2014 
+* Copyright (c) 2014
 */
 (function($){
     $(window).on("load",function(){
@@ -26,9 +26,9 @@
         var i=0;
         $('.numscroller').each(function() {
             i++;
-           $(this).attr('data-slno',i); 
+           $(this).attr('data-slno',i);
            $(this).addClass("roller-title-number-"+i);
-        });        
+        });
     };
     $.fn.scrollzip = function(options){
         var settings = $.extend({
@@ -43,7 +43,8 @@
             if ( $.isFunction( settings.showFunction ) ){
                 if(
                     !$(this).hasClass('isShown')&&
-                    ($(window).outerHeight()+$('#scrollzipPoint').offset().top-settings.showShift)>($(this).offset().top+((settings.wholeVisible)?$(this).outerHeight():0))&&
+                    ($(window).outerHeight()+$('#scrollzipPoint').offset().top-settings.showShift)
+                    >($(this).offset().top+((settings.wholeVisible)?$(this).outerHeight():0))&&
                     ($('#scrollzipPoint').offset().top+((settings.wholeVisible)?$(this).outerHeight():0))<($(this).outerHeight()+$(this).offset().top-settings.showShift)
                 ){
                     $(this).addClass('isShown');
@@ -53,7 +54,8 @@
             if ( $.isFunction( settings.hideFunction ) ){
                 if(
                     $(this).hasClass('isShown')&&
-                    (($(window).outerHeight()+$('#scrollzipPoint').offset().top-settings.hideShift)<($(this).offset().top+((settings.wholeVisible)?$(this).outerHeight():0))||
+                    (($(window).outerHeight()+$('#scrollzipPoint').offset().top-settings.hideShift)
+                    <($(this).offset().top+((settings.wholeVisible)?$(this).outerHeight():0))||
                     ($('#scrollzipPoint').offset().top+((settings.wholeVisible)?$(this).outerHeight():0))>($(this).outerHeight()+$(this).offset().top-settings.hideShift))
                 ){
                     $(this).removeClass('isShown');
@@ -74,7 +76,7 @@
                 //increment=Math.floor((timediff*1000)/10);
             //}//alert(increment);
             numberRoll(slno,min,max,increment,timeout);
-            
+
     }
     function numberRoll(slno,min,max,increment,timeout){//alert(slno+"="+min+"="+max+"="+increment+"="+timeout);
         if(min<=max){
