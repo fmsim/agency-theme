@@ -255,3 +255,18 @@ button.navbar-toggler:focus{
   font-size: 3.75rem;
 }
 /** END OF NUMBERS SECTION **/
+/** TEAM SECTION **/
+#team .card img{
+  margin-top: 3.125rem;
+}
+#team .card hr{
+  background-color: #f15025;
+}
+#team .card svg{
+  color: #f15025;
+  font-size: 1.875rem;
+}
+#team .card svg:hover{
+  color: #242a33;
+}
+/** END OF TEAM SECTION **/
