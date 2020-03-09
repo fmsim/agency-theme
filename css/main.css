@@ -270,3 +270,17 @@ button.navbar-toggler:focus{
   color: #242a33;
 }
 /** END OF TEAM SECTION **/
+/** PROGRESS BAR SECTION **/
+#progress-bars{
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+                    url('../images/background-filler-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+.primary-color-background{
+  background-color: #f15025;
+}
+/** END OF PROGRESS BAR SECTION **/
