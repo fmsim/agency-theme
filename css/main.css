@@ -337,3 +337,28 @@ button.navbar-toggler:focus{
   border-top: 1.25rem solid #f15025;
 }
 /** END OF PRICING SECTION **/
+/** QUOTES SECTION **/
+#quotes{
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+                    url('../images/quotes-background.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #f5f3f5;
+}
+#quotes .fa-quote-left{
+  font-size: 2.5rem;
+  color: #f15025;
+}
+#quotes img{
+  max-width: 15.625rem;
+}
+div.owl-nav{
+  color: #f15025;
+}
+/* .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot span{
+  background: #f15025;
+} */
+/** END OF QUOTES SECTION **/

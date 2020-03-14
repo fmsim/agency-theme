@@ -17,6 +17,6 @@ $(document).ready(function () {
 		}
 	})
 	/* OWL CAROUSEL */
-	$(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
-	$(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
+	$(".owl-prev").html('<i class="fas fa-chevron-left fa-2x"></i>');
+	$(".owl-next").html('<i class="fas fa-chevron-right fa-2x"></i>');
 });
